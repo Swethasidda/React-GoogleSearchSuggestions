@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.big-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 400px;
+  width: 200px;
+}
+.small-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  background-size: cover;
+  width: 30%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.input {
+  background-color: transparent;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  border-width: 0px;
+  outline: none;
+  width: 90%;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}

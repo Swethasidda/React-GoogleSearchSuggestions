@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.Item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.suggestion-para {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 12px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+.image {
+  height: 20px;
+  width: 20px;
+}
